@@ -99,6 +99,7 @@ main {
 main aside {
   width: 20%;
   background-color: #808d8e;
+  font-size: 0.8em;
 }
 @media screen and (max-width: 900px) {
   main aside {

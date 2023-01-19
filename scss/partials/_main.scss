@@ -5,6 +5,7 @@ main{
     aside{
         width: 20%;
         background-color: $color1;
+        font-size: 0.8em;
         
         @media screen and (max-width: 900px) {
             display: none;
