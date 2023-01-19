@@ -74,7 +74,7 @@ header nav ul .dropdown .dropdown-content {
   display: none;
   position: absolute;
   background-color: #a3a5c3;
-  z-index: 1;
+  z-index: 5;
 }
 header nav ul .dropdown .dropdown-content a {
   color: black;
