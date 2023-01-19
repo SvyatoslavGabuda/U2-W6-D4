@@ -1,0 +1,14 @@
+main{
+    padding: 0 20px;
+    display: flex;
+   
+    aside{
+        width: 20%;
+        background-color: $color1;
+        
+        @media screen and (max-width: 900px) {
+            display: none;
+            
+        }
+    }
+}

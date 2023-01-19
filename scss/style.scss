@@ -1,0 +1,67 @@
+@import './partials/var';
+@import './partials/header';
+@import './partials/main';
+@import './partials/paddin';
+@import './partials/bg-colors';
+@import './partials/footer';
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #cbcbcb;
+    height: 100%;
+    
+}
+
+@mixin btn($color,$colortesto) {
+    padding: 15px;
+    margin: 15px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+   color: $colortesto;
+   background-color: $color;
+   box-shadow: 0 0 20px $color;
+   border: 10px outset $colortesto;
+   user-select: none;
+   &:hover {
+    box-shadow: none;
+    background-color: $color;
+    color:  $colortesto;
+    border: 10px inset $colortesto;
+}
+}
+.btn-c-1{
+    @include btn($color1,$colorText);
+}
+.btn-c-2{
+    @include btn($color2,$colorText4);
+}
+.btn-c-3{
+    @include btn($color3,$colorText);
+}
+.btn-c-4{
+    @include btn($color4,$colorText2);
+}
+.btn-c-5{
+    @include btn($color5,$colorText2);
+}
+.btn-c-6{
+    @include btn($color6,$colorText2);
+}
+.btn-c-7{
+    @include btn($color7,$colorText4);
+}
+.btn-c-8{
+    @include btn($color8,$colorText4);
+}
+.btn-c-9{
+    @include btn($color9,$colorText4);
+}
+.btn-c-10{
+    @include btn($color10,$colorText3);
+}

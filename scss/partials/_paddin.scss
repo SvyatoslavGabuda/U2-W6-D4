@@ -1,0 +1,20 @@
+@for $i from 0 to 6 {
+    .px-#{$i} {
+        padding-left: $i*10px;
+        padding-right: $i*10px;
+    }
+}
+@for $i from 0 to 6 {
+    .py-#{$i} {
+        padding-top: $i*10px;
+        padding-bottom: $i*10px;
+    }
+}
+@for $i from 0 to 6 {
+    .p-#{$i} {
+        padding-top: $i*10px;
+        padding-bottom: $i*10px;
+        padding-left: $i*10px;
+        padding-right: $i*10px;
+    }
+}

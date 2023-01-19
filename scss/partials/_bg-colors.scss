@@ -1,0 +1,14 @@
+
+$a: 0;
+@while $a<1 {
+    @each $i in $allColor {
+       
+        .bg-color-#{$a}{
+            background-color: $i;
+        }
+        $a: $a + 1;
+        
+        
+    };
+
+}
