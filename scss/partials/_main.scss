@@ -16,10 +16,12 @@ main{
         ul{
             padding-left: 12px;
             li{
+                padding: 15px 0;
                 a{
                     text-decoration: none;
                     color: $colorText2;
                     font-weight: 700;
+                    padding-left: 5px;
                 }
             }
         }

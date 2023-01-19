@@ -110,10 +110,14 @@ main aside {
 main aside ul {
   padding-left: 12px;
 }
+main aside ul li {
+  padding: 15px 0;
+}
 main aside ul li a {
   text-decoration: none;
   color: rgb(72, 72, 72);
   font-weight: 700;
+  padding-left: 5px;
 }
 
 .px-0 {
