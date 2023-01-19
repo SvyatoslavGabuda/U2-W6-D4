@@ -100,11 +100,20 @@ main aside {
   width: 20%;
   background-color: #808d8e;
   font-size: 0.8em;
+  padding: 0 8px;
 }
 @media screen and (max-width: 900px) {
   main aside {
     display: none;
   }
+}
+main aside ul {
+  padding-left: 12px;
+}
+main aside ul li a {
+  text-decoration: none;
+  color: rgb(72, 72, 72);
+  font-weight: 700;
 }
 
 .px-0 {
@@ -257,18 +266,6 @@ footer {
   font-size: 1.3em;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  font-family: "Kanit", sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #cbcbcb;
-  height: 100%;
-}
-
 .btn-c-1 {
   padding: 15px;
   margin: 15px;
@@ -345,10 +342,10 @@ body {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  color: rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
   background-color: #a3a5c3;
   box-shadow: 0 0 20px #a3a5c3;
-  border: 10px outset rgb(91, 91, 91);
+  border: 10px outset rgb(72, 72, 72);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -357,8 +354,8 @@ body {
 .btn-c-4:hover {
   box-shadow: none;
   background-color: #a3a5c3;
-  color: rgb(91, 91, 91);
-  border: 10px inset rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
+  border: 10px inset rgb(72, 72, 72);
 }
 
 .btn-c-5 {
@@ -368,10 +365,10 @@ body {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  color: rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
   background-color: #a9d2d5;
   box-shadow: 0 0 20px #a9d2d5;
-  border: 10px outset rgb(91, 91, 91);
+  border: 10px outset rgb(72, 72, 72);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -380,8 +377,8 @@ body {
 .btn-c-5:hover {
   box-shadow: none;
   background-color: #a9d2d5;
-  color: rgb(91, 91, 91);
-  border: 10px inset rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
+  border: 10px inset rgb(72, 72, 72);
 }
 
 .btn-c-6 {
@@ -391,10 +388,10 @@ body {
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  color: rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
   background-color: #d8d800;
   box-shadow: 0 0 20px #d8d800;
-  border: 10px outset rgb(91, 91, 91);
+  border: 10px outset rgb(72, 72, 72);
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -403,8 +400,8 @@ body {
 .btn-c-6:hover {
   box-shadow: none;
   background-color: #d8d800;
-  color: rgb(91, 91, 91);
-  border: 10px inset rgb(91, 91, 91);
+  color: rgb(72, 72, 72);
+  border: 10px inset rgb(72, 72, 72);
 }
 
 .btn-c-7 {
@@ -497,4 +494,16 @@ body {
   background-color: #34d408;
   color: rgb(147, 147, 147);
   border: 10px inset rgb(147, 147, 147);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #cbcbcb;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */

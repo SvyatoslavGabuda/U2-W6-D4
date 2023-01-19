@@ -6,10 +6,22 @@ main{
         width: 20%;
         background-color: $color1;
         font-size: 0.8em;
+
+        padding: 0 8px;
         
         @media screen and (max-width: 900px) {
             display: none;
             
+        }
+        ul{
+            padding-left: 12px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $colorText2;
+                    font-weight: 700;
+                }
+            }
         }
     }
 }
